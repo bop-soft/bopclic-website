@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Applications, Websites, Consultation, in Uganda. Elegance is Priority!">
+    <title>Bopclic</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./assets/bopclic.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0PGPB2JDC6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0PGPB2JDC6');
+</script>
+<body onload="initiate()">
+      <!-- Loader -->
+      <section id="load">
+        <h1 class="loader">BoPcLiC</h1>
+    </section>
+    <!-- End Loader -->
+
+    <!-- Late -->
+    <!-- Hero -->
+    <section id="late">
+        <div class="hero">
+            <a href="./bopcamp.html" class="tab">
+                <p class="tab-text">
+                    bopcamp <span><i class="bi bi-mortarboard-fill"></i></span>
+                </p>
+            </a>
+            <a href="./bop-plus.html" class="tab">
+                <p class="tab-text">
+                    bop + <span><i class="bi bi-laptop-fill"></i></span>
+                </p>
+            </a>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Message -->
+    <section id="message">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaHmlLwFaV-uook347MPUswYoKJPpdZWZjWc09YeL1dTdzQA/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+    <!-- End Message -->
+
+    <!-- Game -->
+    <section id="game">
+        <main class="background">
+            <section class="title">
+                <h1>Tic Tac Toe</h1>
+            </section>
+            <section class="display">
+                Player <span class="display-player playerX">X</span>'s turn
+            </section>
+            <section class="container">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </section>
+            <section class="display announcer hide"></section>
+            <section class="controls">
+                <button id="reset">Reset</button>
+            </section>
+        </main>
+    </section>
+    <!-- End Game -->
+
+    <!-- Info -->
+    <section id="info">
+        <div class="info-tab">
+            <p><span><i class="bi bi-facebook"></i></span> bopclic</p>
+            <p><span><i class="bi bi-envelope-fill"></i></span> sales@bopclic.com</p>
+            <p><span><i class="bi bi-geo-alt-fill"></i></span> Uganda</p>
+        </div>
+    </section>
+    <!-- End Info -->
+
+     <!-- Bottom Navigation Bar -->
+     <footer>
+        <button onclick="home()"><i class="bi bi-house-door-fill"></i></button>
+        <button onclick="message()"><i class="bi bi-chat-dots-fill"></i></button>
+        <button onclick="game()"><i class="bi bi-dice-2-fill"></i></button>
+        <button onclick="info()"><i class="bi bi-pin-map-fill"></i></button>
+    </footer>
+    <!-- End Bottom Navigation Bar -->
+    </section>
+    <!-- End Late -->
+
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./game.js"></script>
+    <script src="app.js"></script>
+</body>
+</DOCTYPEhtml>
