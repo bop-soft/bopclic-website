@@ -37,9 +37,9 @@ function info() {
     document.querySelector("#info").style.display = "flex";
 }
 
-// document.addEventListener("contextmenu", function(event) {
-//     event.preventDefault();
-//   });
+document.addEventListener("contextmenu", function(event) {
+    event.preventDefault();
+  });
   
 
 let textWrapper = document.querySelector('.loader');
