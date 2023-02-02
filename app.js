@@ -6,7 +6,7 @@ function initiate() {
 
 function showPage() {
   document.getElementById("load").style.display = "none";
-  document.getElementById("late").style.display = "block";
+  document.getElementById("late").style.display = "flex";
 }
 
 function message() {
@@ -20,7 +20,7 @@ function home() {
     document.querySelector("#message").style.display = "none";
     document.querySelector("#game").style.display = "none";
     document.querySelector("#info").style.display = "none";
-    document.querySelector(".hero").style.display = "block";
+    document.querySelector(".hero").style.display = "flex";
 }
 
 function game() {
