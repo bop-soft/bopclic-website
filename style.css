@@ -200,6 +200,7 @@ button {
 #message h1{
     color: white;
     letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 .contact {
