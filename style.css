@@ -241,10 +241,9 @@ textarea {
 
 .contact button{
     background-color: rgb(117, 117, 238);
-    height: 40px;
     border-radius: 20px;
-    border: 1px solid white;
-    width: 80px;
+    border: 1px solid wheat;
+    padding: 0.8rem;
     color: black;
     margin-top: 10px;
     text-transform: uppercase;

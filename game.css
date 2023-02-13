@@ -36,6 +36,7 @@
 
 .tile {
     border: 1px solid white;
+    border-radius: 4px;
     min-width: 80px;
     min-height: 80px;
     display: flex;
@@ -64,7 +65,7 @@
 .controls button {
     color: white;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 20px;
     border: none;
     font-size: 20px;
     margin-left: 1em;
@@ -81,4 +82,6 @@
     color: black;
     font-size: small;
     padding: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
