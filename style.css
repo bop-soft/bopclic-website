@@ -29,9 +29,23 @@ body{
     text-decoration: none;
 }
 
+#portfolio-hero .tab {
+    width: 100%;
+    padding: 10px;
+    height: 2rem;
+}
+
 .tab-text{
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+#portfolio-hero .tab-text {
+    letter-spacing: 2px;
+}
+
+#portfolio-hero .tab-text i {
+    font-size: larger;
 }
 
 .tab-text i {
