@@ -175,12 +175,14 @@ button {
 
 #intro img {
     border-radius: 20px;
-    margin: 30px;
 }
 
 .intro-icons {
     color: wheat;
-    margin: 30px;
+}
+
+#intro h3{
+    padding: 60px 0px 60px 0px;
 }
 
 .learn h4{
