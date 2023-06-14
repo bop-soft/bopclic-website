@@ -16,6 +16,9 @@
         .platforms{
             width: 200px;
         }
+        .hero-text{
+          width: 50%;
+        }
         /* laptops */
   @media only screen and (min-width: 992px) {
     #mobileScreenshotsCarousel{
@@ -40,6 +43,9 @@
     #mobileScreenshotsCarousel .carousel-item img {
     width: 90%;
     margin: auto;
+  }
+  .hero-text {
+    width: 100%;
   }
 }
     </style>
@@ -77,11 +83,14 @@
       <section id="hero" class="bg-dark text-white p-5"> 
         <h2 class="pt-5">Rentals From
         <h2>Verified Landlords</h2>
-        <p class="pt-4">Spesnow directly connects users to Official Landlords,
-            <br>
-            And allows tour bookings through in-app purchased tokens/keys.
+        <div class="hero-text"">
+          <p class="pt-4" style="text-align: justify;">Spesnow directly connects users to official landlords,
+            
+            and allows tour bookings through in-app purchased tokens/keys.
         </p>
-        <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#demoModal">Get a Demo</button>
+        </div>
+       
+        <button type="button" class="btn btn-light btn-lg mt-2" data-bs-toggle="modal" data-bs-target="#demoModal">Get a Demo</button>
         <!-- Modal -->
 <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -102,7 +111,7 @@
 <!-- end Modal -->
         <p class="pt-5">Platforms</p>
         <div class="platforms">
-            <div class="row mb-5">
+            <div class="row mb-5 pb-4">
                 <div class="col">
                     <h6><span><i class="bi bi-apple"></i></span> IOS</h6>
                 </div>
