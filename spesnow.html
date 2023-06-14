@@ -13,6 +13,10 @@
         #hero p{
             letter-spacing: 1px;
         }
+        .platforms{
+            width: 280px;
+        }
+        /* laptops */
   @media only screen and (min-width: 992px) {
   .carousel-item img {
     width: 100%;
@@ -21,12 +25,26 @@
   #screenshotsCarousel{
     width: 60%;
   }
+  #hero row {
+        width: 280px;
+    }
 }
-
+/* phones and tablets */
 @media only screen and (max-width: 992px) {
+    #hero {
+            text-align: center;
+        }
+        #hero row {
+        width: 100%;
+    }
   .carousel-item img {
     width: 100%;
     margin: auto;
+  }
+  .platforms {
+
+    display: block;
+            margin: auto;
   }
 }
     </style>
@@ -69,12 +87,14 @@
             And allows tour bookings through in-app purchased tokens/keys.
         </p>
         <p class="pt-5">Platforms</p>
-        <div class="row mb-5" style="width: 280px;">
-            <div class="col">
-                <h6><span><i class="bi bi-apple"></i></span> IOS</h6>
-            </div>
-            <div class="col">
-                <h6> <span><i class="bi bi-android2"></i></span> Android</h6>
+        <div class="platforms">
+            <div class="row mb-5">
+                <div class="col">
+                    <h6><span><i class="bi bi-apple"></i></span> IOS</h6>
+                </div>
+                <div class="col">
+                    <h6> <span><i class="bi bi-android2"></i></span> Android</h6>
+                </div>
             </div>
         </div>
       </section>
