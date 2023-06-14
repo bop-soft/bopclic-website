@@ -30,6 +30,7 @@ body{
 }
 
 #portfolio-hero .tab {
+    border-radius: 2rem;
     width: 100%;
     padding: 10px;
     height: 2rem;
