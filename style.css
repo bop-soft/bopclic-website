@@ -179,10 +179,11 @@ button {
 
 .intro-icons {
     color: wheat;
+    margin-top: 40px;
 }
 
 #intro h3{
-    padding: 60px 0px 60px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 .learn h4{
